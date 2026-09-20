@@ -1,0 +1,219 @@
+/* ========================================
+   AMERICARIBE NEWS
+   Main Website Styles
+   ======================================== */
+
+/* ---------- PAGE ---------- */
+
+body {
+    background-color: #0b0b0b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+    border: 2px solid #d4af37;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.brand {
+    color: #d4af37;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.tagline {
+    color: #bdbdbd;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 0;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 1px solid #444444;
+}
+
+nav a:hover {
+    color: #d4af37;
+    border-color: #d4af37;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #d4af37;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+main p {
+    color: #f5f5f5;
+    font-size: 18px;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 25px 15px;
+    }
+
+    .brand {
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+
+    .tagline {
+        font-size: 10px;
+    }
+
+    nav {
+        gap: 6px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 7px 9px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+}/* ---------- FEATURED STORY ---------- */
+
+.featured-story {
+    max-width: 900px;
+    margin: 0 auto 50px;
+    padding: 50px 30px;
+    border: 1px solid #d4af37;
+    background-color: #111111;
+}
+
+.featured-label {
+    color: #d4af37;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.featured-story h2 {
+    color: #ffffff;
+    font-size: 42px;
+    margin: 0 0 20px;
+}
+
+.featured-text {
+    color: #cccccc;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #0b0b0b;
+    background-color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    letter-spacing: 1px;
+}
+
+.read-more:hover {
+    background-color: #ffffff;
+}/* ---------- LATEST NEWS ---------- */
+
+.latest-news {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    text-align: left;
+}
+
+.section-title {
+    border-bottom: 1px solid #d4af37;
+    margin-bottom: 25px;
+}
+
+.section-title span {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #0b0b0b;
+    padding: 8px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.news-card {
+    border: 1px solid #333333;
+    background-color: #111111;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.news-category {
+    color: #d4af37;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.news-card h3 {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 0 12px;
+}
+
+.news-card p {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.news-card a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
