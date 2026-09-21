@@ -4,81 +4,497 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="AmeriCaribe News — reporting, analysis and perspective for Puerto Rico, the Caribbean, the United States and the world.">
     <title>AmeriCaribe News</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="topbar">
+                <div class="brand-block">
+                    <div class="brand">AMERICARIBE</div>
+                    <div class="tagline">NEWS • ANALYSIS • PERSPECTIVE</div>
+                </div>
 
-    <header>
-        <div class="brand">AMERICARIBE</div>
-        <div class="tagline">NEWS • INSIGHTS • THE CARIBBEAN</div>
-    </header>
+                <div class="header-meta" aria-label="News regions">
+                    <span>Puerto Rico</span>
+                    <span>Caribbean</span>
+                    <span>Global</span>
+                </div>
+            </div>
+        </header>
 
-    <nav>
-        <a href="#">Puerto Rico</a>
-        <a href="#">Caribbean</a>
-        <a href="#">United States</a>
-        <a href="#">World</a>
-        <a href="#">Economy</a>
-        <a href="#">Politics & Government</a>
-        <a href="#">AI & Technology</a>
-    </nav>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#puerto-rico">Puerto Rico</a>
+            <a href="#caribbean">Caribbean</a>
+            <a href="#united-states">United States</a>
+            <a href="#world">World</a>
+            <a href="#economy">Economy</a>
+            <a href="#politics">Politics &amp; Government</a>
+            <a href="#ai-technology">AI &amp; Technology</a>
+            <a href="#entertainment">Entertainment</a>
+            <a href="#sports">Sports</a>
+            <a href="#travel">Travel</a>
+            <a href="#investigations">Investigations</a>
+            <a href="#insights">Insights</a>
+        </nav>
 
-    <main>
+        <main>
+            <section class="featured-story" id="top-story">
+                <div class="featured-copy">
+                    <p class="eyebrow">Top Story</p>
+                    <h1>News, context and perspective from the Americas and the Caribbean.</h1>
+                    <p class="featured-text">
+                        AmeriCaribe News follows the conversations shaping Puerto Rico, the Caribbean,
+                        the United States and the wider world through reporting, analysis and informed perspective.
+                    </p>
 
-        <section class="featured-story">
-            <section class="latest-news">
+                    <div class="cta-row">
+                        <a class="primary-btn" href="#puerto-rico">Read the report</a>
+                    </div>
+                </div>
 
-    <div class="section-title">
-        <span>LATEST NEWS</span>
+                <aside class="featured-aside" aria-label="Feature summary">
+                    <div class="meta-panel">
+                        <p class="meta-label">Edition</p>
+                        <strong>Weekly Briefing</strong>
+                    </div>
+                    <div class="meta-panel">
+                        <p class="meta-label">Focus</p>
+                        <strong>Policy • Culture • Economy</strong>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="content-section latest-news" id="puerto-rico" aria-labelledby="puerto-rico-title">
+                <div class="section-header">
+                    <p class="eyebrow">Latest News</p>
+                    <h2 id="puerto-rico-title">Puerto Rico</h2>
+                </div>
+
+                <div class="story-grid" role="list" aria-label="Puerto Rico stories">
+                    <article class="story-card" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for Puerto Rico coverage"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">Puerto Rico</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>Puerto Rico’s civic conversations continue to shape the island’s future.</h3>
+                            <p>
+                                From public trust to local decision-making, the stories that define daily life remain central to the island’s growth and resilience.
+                            </p>
+                            <div class="story-footer">
+                                <span class="story-location">Puerto Rico</span>
+                                <a href="#puerto-rico">Read story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="story-card" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for Caribbean coverage"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">Caribbean</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>Regional developments bring new attention to shipping, energy and community networks.</h3>
+                            <p>
+                                The Caribbean remains deeply connected through commerce, migration and shared challenges that influence regional outlooks.
+                            </p>
+                            <div class="story-footer">
+                                <span class="story-location">Caribbean</span>
+                                <a href="#caribbean">Read story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="story-card" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for United States coverage"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">United States</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>National policy decisions continue to influence life across the Atlantic and the Caribbean.</h3>
+                            <p>
+                                Coverage focused on the institutions, debates and decisions that shape opportunities, security and public priorities.
+                            </p>
+                            <div class="story-footer">
+                                <span class="story-location">Washington</span>
+                                <a href="#united-states">Read story</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="story-card" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for World coverage"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">World</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>Global events and cross-border trends remain relevant to local communities.</h3>
+                            <p>
+                                Analysis of the international stories that matter most to Puerto Rico, the broader Caribbean and connected audiences worldwide.
+                            </p>
+                            <div class="story-footer">
+                                <span class="story-location">Global</span>
+                                <a href="#world">Read story</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="content-section latest-news" id="world" aria-labelledby="world-title">
+                <div class="section-header">
+                    <p class="eyebrow">Global Coverage</p>
+                    <h2 id="world-title">World</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future World stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future World stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Global coverage is part of the AmeriCaribe publication.</h3>
+                        <p>
+                            This section will contain future reporting and analysis on international events, cross-border trends and issues relevant to Puerto Rico and the wider Caribbean.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Global</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="caribbean" aria-labelledby="caribbean-title">
+                <div class="section-header">
+                    <p class="eyebrow">Regional Coverage</p>
+                    <h2 id="caribbean-title">Caribbean</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Caribbean stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Caribbean stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Caribbean coverage is part of the AmeriCaribe publication.</h3>
+                        <p>
+                            This section will contain future reporting and analysis focused on regional developments, community issues and wider Caribbean perspectives.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Caribbean</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="united-states" aria-labelledby="united-states-title">
+                <div class="section-header">
+                    <p class="eyebrow">National Coverage</p>
+                    <h2 id="united-states-title">United States</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future United States stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future United States stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>United States reporting will be added as part of the publication’s continued coverage.</h3>
+                        <p>
+                            This area is reserved for future stories examining public policy, institutions, civic life and regional relevance to Puerto Rico and the Caribbean.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">United States</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="economy" aria-labelledby="economy-title">
+                <div class="section-header">
+                    <p class="eyebrow">Economic Coverage</p>
+                    <h2 id="economy-title">Economy</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Economy stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Economy stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Economic reporting is part of the AmeriCaribe publication.</h3>
+                        <p>
+                            This section will include future analysis of labor, trade, markets, business conditions and the economic forces shaping communities.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Economy</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="politics" aria-labelledby="politics-title">
+                <div class="section-header">
+                    <p class="eyebrow">Public Affairs</p>
+                    <h2 id="politics-title">Politics &amp; Government</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Politics and Government stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Politics and Government stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Politics and government coverage will be added to this section.</h3>
+                        <p>
+                            This placeholder marks the future home for public policy, governance, accountability and civic reporting relevant to AmeriCaribe readers.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Politics</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="ai-technology" aria-labelledby="ai-technology-title">
+                <div class="section-header">
+                    <p class="eyebrow">Technology Coverage</p>
+                    <h2 id="ai-technology-title">AI &amp; Technology</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future AI and Technology stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future AI and Technology stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>AI and technology coverage will appear here as the publication grows.</h3>
+                        <p>
+                            This section is reserved for future reporting on digital infrastructure, innovation, public impact and the changing role of technology in everyday life.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Technology</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="entertainment" aria-labelledby="entertainment-title">
+                <div class="section-header">
+                    <p class="eyebrow">Culture Coverage</p>
+                    <h2 id="entertainment-title">Entertainment</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Entertainment stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Entertainment stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Entertainment coverage will be part of the AmeriCaribe publication.</h3>
+                        <p>
+                            This placeholder marks the future home for arts, culture, media and entertainment stories relevant to the region and broader audiences.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Entertainment</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="sports" aria-labelledby="sports-title">
+                <div class="section-header">
+                    <p class="eyebrow">Sports Coverage</p>
+                    <h2 id="sports-title">Sports</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Sports stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Sports stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Sports reporting will be added in future editions.</h3>
+                        <p>
+                            This section is reserved for future stories on teams, athletes, local competitions and the role of sport in community life.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Sports</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="travel" aria-labelledby="travel-title">
+                <div class="section-header">
+                    <p class="eyebrow">Lifestyle Coverage</p>
+                    <h2 id="travel-title">Travel</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Travel stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Travel stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Travel coverage will be added as part of the publication’s lifestyle reporting.</h3>
+                        <p>
+                            This placeholder marks the future home for destination stories, tourism, cultural travel and regional experiences.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Travel</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section latest-news" id="investigations" aria-labelledby="investigations-title">
+                <div class="section-header">
+                    <p class="eyebrow">In-Depth Reporting</p>
+                    <h2 id="investigations-title">Investigations</h2>
+                </div>
+
+                <article class="story-card placeholder-card" aria-label="Placeholder section for future Investigations stories">
+                    <div class="story-image placeholder-image" aria-label="Placeholder image for future Investigations stories"></div>
+                    <div class="story-content">
+                        <div class="story-meta">
+                            <span class="story-kicker">Placeholder</span>
+                            <span class="story-date">Coming Soon</span>
+                        </div>
+                        <h3>Investigative reporting will appear here as the publication develops.</h3>
+                        <p>
+                            This section is reserved for future deep-dive reporting, accountability journalism and analysis that requires broader context.
+                        </p>
+                        <div class="story-footer">
+                            <span class="story-location">Investigations</span>
+                            <span class="placeholder-tag">Placeholder</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="content-section insights" id="insights" aria-labelledby="insights-title">
+                <div class="section-header">
+                    <p class="eyebrow">AmeriCaribe Insights</p>
+                    <h2 id="insights-title">Analysis designed to help readers understand the bigger picture.</h2>
+                </div>
+
+                <div class="insight-grid">
+                    <article class="story-card insight-feature" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for analysis feature"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">Analysis</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>Understanding the stories behind the headlines.</h3>
+                            <p>
+                                Through context, data and careful reporting, AmeriCaribe Insights explains the forces shaping public discourse across Puerto Rico and the wider Americas.
+                            </p>
+                            <div class="story-footer">
+                                <span class="story-location">Insights</span>
+                                <a href="#insights">Explore insights</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="story-card compact-card" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for Economy analysis"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">Economy</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>How markets, labor and migration shape local life.</h3>
+                            <p>Explainer coverage on the systems influencing resilience and opportunity.</p>
+                            <div class="story-footer">
+                                <span class="story-location">Economy</span>
+                                <a href="#economy">Read analysis</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="story-card compact-card" role="listitem">
+                        <div class="story-image" aria-label="Image placeholder for technology analysis"></div>
+                        <div class="story-content">
+                            <div class="story-meta">
+                                <span class="story-kicker">Technology</span>
+                                <span class="story-date">Placeholder</span>
+                            </div>
+                            <h3>AI, digital infrastructure and the future of public life.</h3>
+                            <p>Why new tools and systems matter for media, education, work and governance.</p>
+                            <div class="story-footer">
+                                <span class="story-location">AI &amp; Technology</span>
+                                <a href="#ai-technology">Read analysis</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-brand">
+                <div class="brand">AMERICARIBE</div>
+                <p>Independent reporting for Puerto Rico, the Caribbean, the United States and the world.</p>
+            </div>
+
+            <div class="footer-links">
+                <div>
+                    <h3>Coverage</h3>
+                    <ul>
+                        <li><a href="#puerto-rico">Puerto Rico</a></li>
+                        <li><a href="#caribbean">Caribbean</a></li>
+                        <li><a href="#united-states">United States</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Topics</h3>
+                    <ul>
+                        <li><a href="#economy">Economy</a></li>
+                        <li><a href="#politics">Politics</a></li>
+                        <li><a href="#travel">Travel</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Journal</h3>
+                    <ul>
+                        <li><a href="#investigations">Investigations</a></li>
+                        <li><a href="#insights">Insights</a></li>
+                        <li><a href="#entertainment">Entertainment</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
-
-    <article class="news-card">
-        <div class="news-category">PUERTO RICO</div>
-
-        <h3>AmeriCaribe News: Puerto Rico and the Caribbean</h3>
-
-        <p>
-            The latest developments, public affairs, economy,
-            culture and stories shaping Puerto Rico and the region.
-        </p>
-
-        <a href="#">Read Story →</a>
-    </article>
-
-    <article class="news-card">
-        <div class="news-category">WORLD</div>
-
-        <h3>World News and Global Developments</h3>
-
-        <p>
-            International developments and the events connecting
-            the Caribbean with the wider world.
-        </p>
-
-        <a href="#">Read Story →</a>
-    </article>
-
-</section>
-
-    <div class="featured-label">TOP STORY</div>
-
-    <h2>AmeriCaribe News</h2>
-
-    <p class="featured-text">
-        Puerto Rico, the Caribbean, the United States and the world
-        connected through news, analysis and perspective.
-    </p>
-
-    <a class="read-more" href="#">READ MORE</a>
-
-</section>
-
-    </main>
-
 </body>
 
 </html>

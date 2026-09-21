@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reusable static article detail template for AmeriCaribe News.">
+    <title>Article Detail Template | AmeriCaribe News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="topbar">
+                <div class="brand-block">
+                    <div class="brand">AMERICARIBE</div>
+                    <div class="tagline">NEWS • ANALYSIS • PERSPECTIVE</div>
+                </div>
+
+                <div class="header-meta" aria-label="News regions">
+                    <span>Puerto Rico</span>
+                    <span>Caribbean</span>
+                    <span>Global</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <nav class="article-navigation" aria-label="Article navigation">
+                <a class="article-back-link" href="index.html">Back to homepage</a>
+            </nav>
+
+            <p class="article-loader-message" role="status" aria-live="polite" hidden></p>
+
+            <article class="article-detail" data-article-id="ARTICLE-ID-PLACEHOLDER" data-article-status="STATUS-PLACEHOLDER" data-article-type="EDITORIAL-TYPE-PLACEHOLDER" data-editorial-types="breaking news investigation analysis insights feature" hidden>
+                <header class="article-header">
+                    <p class="eyebrow" data-field="category">CATEGORY</p>
+                    <p class="article-type" data-field="type">EDITORIAL TYPE</p>
+                    <h1 data-field="headline">ARTICLE HEADLINE</h1>
+                    <p class="article-deck" data-field="summary">SUMMARY / DECK</p>
+
+                    <dl class="article-meta" aria-label="Article metadata">
+                        <div data-field="id">
+                            <dt>Article ID</dt>
+                            <dd>ARTICLE ID</dd>
+                        </div>
+                        <div data-field="date">
+                            <dt>Date</dt>
+                            <dd>DATE</dd>
+                        </div>
+                        <div data-field="status">
+                            <dt>Status</dt>
+                            <dd>STATUS</dd>
+                        </div>
+                        <div data-field="subcategory">
+                            <dt>Subcategory</dt>
+                            <dd>SUBCATEGORY</dd>
+                        </div>
+                        <div data-field="time">
+                            <dt>Time</dt>
+                            <dd>TIME</dd>
+                        </div>
+                        <div data-field="location">
+                            <dt>Location</dt>
+                            <dd>LOCATION</dd>
+                        </div>
+                        <div data-field="author">
+                            <dt>Author / Byline</dt>
+                            <dd>AUTHOR / BYLINE</dd>
+                        </div>
+                    </dl>
+                </header>
+
+                <figure class="article-hero">
+                    <div class="article-image-placeholder" data-field="heroImage" role="img" aria-label="Hero image area placeholder">HERO IMAGE AREA</div>
+                    <figcaption><span data-field="imageCaption">IMAGE CAPTION</span> | <span data-field="imageCredit">IMAGE CREDIT</span></figcaption>
+                </figure>
+
+                <div class="article-content-grid">
+                    <section class="article-body" id="article-body" data-field="body" aria-labelledby="article-body-title">
+                        <h2 id="article-body-title">ARTICLE BODY</h2>
+                        <p>ARTICLE BODY PLACEHOLDER</p>
+                    </section>
+
+                    <aside class="article-support" aria-label="Article supporting information">
+                        <section class="article-support-section" id="sources" aria-labelledby="sources-title">
+                            <h2 id="sources-title">SOURCES</h2>
+                            <dl>
+                                <div data-field="source">
+                                    <dt>Source</dt>
+                                    <dd>SOURCE</dd>
+                                </div>
+                                <div data-field="sourceUrl">
+                                    <dt>Source URL</dt>
+                                    <dd>SOURCE URL</dd>
+                                </div>
+                            </dl>
+                        </section>
+
+                        <section class="article-support-section" id="related-stories" aria-labelledby="related-stories-title">
+                            <h2 id="related-stories-title">RELATED STORIES</h2>
+                            <ul data-field="relatedStories">
+                                <li>RELATED STORY PLACEHOLDER</li>
+                            </ul>
+                        </section>
+
+                        <section class="article-support-section" id="tags" aria-labelledby="tags-title">
+                            <h2 id="tags-title">TAGS</h2>
+                            <ul class="article-tags" data-field="tags">
+                                <li>TAGS PLACEHOLDER</li>
+                            </ul>
+                        </section>
+                    </aside>
+                </div>
+            </article>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-brand">
+                <div class="brand">AMERICARIBE</div>
+                <p>Independent reporting for Puerto Rico, the Caribbean, the United States and the world.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/article-loader.js"></script>
+</body>
+
+</html>
